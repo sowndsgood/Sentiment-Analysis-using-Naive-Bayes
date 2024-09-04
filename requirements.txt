@@ -1,0 +1,5 @@
+pandas
+nltk
+streamlit
+Pillow
+scikit-learn
