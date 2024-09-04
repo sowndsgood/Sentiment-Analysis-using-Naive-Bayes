@@ -121,7 +121,7 @@ accuracy=correct_predictions/total_predictions
 print("Accuracy:",accuracy)
 
 def main():
-    banner=Image.open(r"images\download.png")
+    banner=Image.open(r"images/download.png")
     banner=banner.resize((300,200))
     st.image(banner,use_column_width=True)
 
@@ -141,11 +141,11 @@ def main():
         image_size=(200,200)
 
         if predicted=='Positive':
-            image=Image.open(r"images\positive.jpg")
+            image=Image.open(r"images/positive.jpg")
         elif predicted=='Negative':
-            image=Image.open(r"images\negative.jpg")
+            image=Image.open(r"images/negative.jpg")
         else:
-            image=Image.open(r"images\neutral.jpg")
+            image=Image.open(r"images/neutral.jpg")
 
         
         resized_image=image.resize(image_size)
