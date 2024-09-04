@@ -15,7 +15,7 @@ from sklearn.model_selection import train_test_split
 
 st.set_page_config(page_title="Tweet Sentiment Analysis",page_icon="😄",layout='centered',initial_sidebar_state='auto')
 #Load the dataset
-df=pd.read_csv(r"D:\Journey\Projects\Sentiment_Analysis_Using_Naive_Bayes_Classifier\data\train.csv")
+df=pd.read_csv(r"data/train.csv")
 df=df.drop(columns=["selected_text"])
 df["text"]=df["text"].astype(str)
 
