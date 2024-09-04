@@ -46,11 +46,6 @@ This project implements a sentiment analysis tool using the Naive Bayes classifi
 3. **Evaluate Accuracy:**
     - Modify the code to evaluate the accuracy of the classifier on the test dataset.
 
-## Project Structure
-
-tweet-sentiment-analysis/ │ ├── data/ # Folder containing the dataset │ ├── train.csv │ ├── images/ # Folder containing images for sentiment display │ ├── positive.jpg │ ├── negative.jpg │ └── neutral.jpg │ ├── app.py # Streamlit app script ├── train.py # Script to train the model (if needed) ├── requirements.txt # List of dependencies └── README.md # Project documentation (this file)
-
-
 ## Example
 
 ### Input: I love the film
